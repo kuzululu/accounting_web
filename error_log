@@ -1,0 +1,18 @@
+[11-Feb-2024 21:05:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php:3599
+Stack trace:
+#0 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(3565): PHPMailer\PHPMailer\PHPMailer::isValidHost()
+#1 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(2304): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(1421): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/ydkkoiux/public_html/portfolio/accounting/email.php(52): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php on line 3599
+[11-Feb-2024 21:05:27 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "PHPMailer\PHPMailer\FILTER_FLAG_HOST_REQUIRED" in /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php:3599
+Stack trace:
+#0 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(3565): PHPMailer\PHPMailer\PHPMailer::isValidHost()
+#1 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(2304): PHPMailer\PHPMailer\PHPMailer->serverHostname()
+#2 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(1421): PHPMailer\PHPMailer\PHPMailer->createHeader()
+#3 /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php(1316): PHPMailer\PHPMailer\PHPMailer->preSend()
+#4 /home/ydkkoiux/public_html/portfolio/accounting/email.php(52): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/ydkkoiux/public_html/portfolio/accounting/PHPMailer/src/PHPMailer.php on line 3599
